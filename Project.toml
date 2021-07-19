@@ -1,0 +1,17 @@
+name = "OpenBLAS32"
+uuid = "fae2ebec-24a6-48a2-8621-3bc3eb4dc335"
+authors = ["Mosè Giordano <mose@gnu.org>"]
+version = "1.0.0"
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+OpenBLAS32_jll = "656ef2d0-ae68-5445-9ca0-591084a874a2"
+
+[compat]
+julia = "1.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
